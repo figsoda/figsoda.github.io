@@ -1,0 +1,53 @@
+baseURL = "http://figsoda.github.io"
+languageCode = "en-us"
+title = "figsoda"
+
+[outputs]
+home = ["HTML", "JSON", "RSS"]
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup.highlight]
+style = "onedark"
+
+[menu]
+main = [
+    { name = "RSS", url = "index.xml" },
+    { name = "Search", url = "search" },
+    { name = "Source", url = "https://github.com/figsoda/figsoda.github.io" },
+]
+
+[params]
+DateFormat = "2006-01-02"
+ShowCodeCopyButtons = true
+ShowPostNavLinks = true
+ShowReadingTime = true
+ShowRssButtonInSectionTermList = true
+author = "figsoda"
+env = "production"
+hideFooter = true
+keywords = ["blog", "nix", "nixos", "rust", "tech"]
+socialIcons = [
+    { name = "github", url = "https://github.com/figsoda" },
+    { name = "mastodon", url = "https://hachyderm.io/@figsoda" },
+    { name = "twitter", url = "https://twitter.com/figsoda" },
+    { name = "matrix", url = "https://matrix.to/#/@figsoda:matrix.org" },
+    { name = "rss", url = "index.xml" },
+]
+
+[params.assets]
+disableHLJS = true
+
+[params.homeInfoParams]
+Title = "figsoda"
+Content = """
+A little bit of Nix and a little bit of Rust
+
+[nix-init] - [fenix] - [nurl] - [haumea]
+
+[nix-init]: https://github.com/nix-community/nix-init
+[fenix]: https://github.com/nix-community/fenix
+[nurl]: https://github.com/nix-community/nurl
+[haumea]: https://github.com/nix-community/haumea
+"""
