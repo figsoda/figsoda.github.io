@@ -223,7 +223,7 @@ nix flake init -t github:nix-community/namaka#subflake
 
 - You need to keep track of two `flake.lock` files. This can make updating slightly more cumbersome.
 
-> [Discuess on NixOS Discourse](https://discourse.nixos.org/t/28840)
+> [Discuss on NixOS Discourse](https://discourse.nixos.org/t/28840)
 
 [arion]: https://docs.hercules-ci.com/arion
 [call-flake]: https://github.com/divnix/call-flake
