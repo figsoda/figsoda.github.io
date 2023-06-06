@@ -38,7 +38,7 @@ socialIcons = [
 
 [params.assets]
 disableHLJS = true
-favicon = "https://gravatar.com/avatar/6e9e99763a7139b39021c7a94b149d5e?s=32"
+favicon = "https://gravatar.com/avatar/6e9e99763a7139b39021c7a94b149d5e?s=128"
 favicon16x16 = "https://gravatar.com/avatar/6e9e99763a7139b39021c7a94b149d5e?s=16"
 favicon32x32 = "https://gravatar.com/avatar/6e9e99763a7139b39021c7a94b149d5e?s=32"
 apple_touch_icon = "https://gravatar.com/avatar/6e9e99763a7139b39021c7a94b149d5e?s=180"
